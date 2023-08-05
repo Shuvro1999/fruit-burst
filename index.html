@@ -4,8 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit-Burst</title>
+    <!-- tailwind and daisyUI  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+     <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<!-- icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .font-lato{
+        font-family:'Lato', sans-serif;
+    }
+</style>
 </head>
-<body>
+<body class="font family">
+    <!-- header section -->
+    <header class="container  mx-auto bg-[#F85559] my-12 rounded-[630px] px-14 py-2 flex justify-between items-center">
+        <!-- header-text -->
+        <div class="hidden md:flex  ">
+            <ul class="flex justify-between items-center text-[#FFF] font-medium px-14 py-12 gap-3">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All fruits</a></li>
+            </ul>
+        </div>
+        <div class="dropdown dropdown-bottom">
+            <label tabindex="0" class="btn m-1 md:hidden"><i class="fa-solid fa-bars"></i></label>
+            <ul tabindex="0" class="dropdown-content z-[1] menu p-2   rounded-box w-52 text-black font-medium">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All fruits</a></li>
+            </ul>
+          </div>
+          <a href=""></a>
+       <!-- header-logo -->
+       <div class="flex justify-center items-center">
+          <img class="w-12 h-14" src="./B8A3-fruit-brust/images/logo.png" alt="">
+          <h3 class="text-[#FFF] text-4xl font-bold">Fruit Burst</h3>
+       </div>
+       <!-- header-box -->
+       <div class="bg-[#FFF] w-[300px] h-[56px] rounded-[50px] px-7 py-5 md:flex justify-between items-center hidden ">
+          <p>Search here</p>
+          <i class="fa-solid fa-magnifying-glass"></i>
+       </div>
+    </header>
+
+    <main class="container mx-auto">
+        <!-- banner section -->
+        <section class="my-14">
+            <div class="hero min-h-screen" style="background-image: url(./B8A3-fruit-brust/images/banner4.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Exotic tastes at 
+                        <br> 
+                        your doorstep</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+    </main>
+    
     
 </body>
 </html>
