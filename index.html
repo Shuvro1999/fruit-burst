@@ -17,7 +17,11 @@
     .font-lato{
         font-family:'Lato', sans-serif;
     }
+    .bg-image{
+        background-image: url(./B8A3-fruit-brust/images/team.png);
+    }
 </style>
+
 </head>
 <body class="font family">
     <!-- header section -->
@@ -56,10 +60,12 @@
     <main class="container mx-auto">
         <!-- banner section -->
        <section class="my-14">
-        <div class="carousel w-full bg-opacity-5">
+        <div class="carousel w-full ">
             <!-- first -->
             <div id="slide1" class="carousel-item relative w-full z-10">
+                
               <img class="w-full h-[220px] md:h-full " src="./B8A3-fruit-brust/images/banner4.png" />
+             
               <!-- banner text -->
               <div class="absolute z-50 text-center left-20 top-16 md:left-96 md:top-40">
                 <h1 class="text-2xl md:text-5xl text-[#FFF] font-semibold md:font-extrabold">Exotic tastes at your 
@@ -76,7 +82,8 @@
             </div> 
             <!-- second -->
             <div id="slide2" class="carousel-item relative w-full z-10">
-              <img src="./B8A3-fruit-brust/images/banner3.png" class="w-full h-[220px] md:h-full" />
+              <img src="./B8A3-fruit-brust/images/banner3.png" class="w-full h-[220px] md:h-full " />
+             
               <!-- banner text -->
                
                <div class="absolute z-50 text-center left-20 top-16 md:left-96 md:top-40">
@@ -112,6 +119,7 @@
             <!-- fourth -->
             <div id="slide4" class="carousel-item relative w-full z-10">
               <img src="./B8A3-fruit-brust/images/banner1.png" class="w-full  h-[220px] md:h-full" />
+              
               <!-- banner-text -->
               <div class="absolute z-50 text-center left-20 top-16 md:left-96 md:top-40">
                 <h1 class="text-2xl md:text-5xl text-[#FFF] font-semibold md:font-extrabold">Exotic tastes at your 
@@ -128,7 +136,218 @@
             </div>
           </div>
        </section>
-       
+       <!-- deal of the day -->
+       <section class="my-14">
+        <!-- deal heading -->
+         <div class="flex flex-col md:flex-row justify-between items-center ">
+            <div class="my-10">
+                <h3 class="text-[#121212] text-5xl font-extrabold mb-6">Deal of the day</h3>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+                    <br>
+                     Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <!-- countdown -->
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                <div class="flex flex-col">
+                    <span class="countdown font-mono text-5xl">
+                      <span class="text-[#121212] text-5xl font-extrabold" style="--value:15;"></span>
+                    </span>
+                    days
+                  </div> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span class="text-[#121212] text-5xl font-extrabold" style="--value:10;"></span>
+                  </span>
+                  hours
+                </div> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span class="text-[#121212] text-5xl font-extrabold" style="--value:24;"></span>
+                  </span>
+                  min
+                </div> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span class="text-[#121212] text-5xl font-extrabold" style="--value:33;"></span>
+                  </span>
+                  sec
+                </div>
+              </div>
+         </div>
+         <!-- card section -->
+         <div class="mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-[#FFF] gap-6">
+            <!-- card-1 -->
+            <div>
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="./B8A3-fruit-brust/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#121212] text-2xl font-bold my-6">12.90$ - 18.85$</h2>
+                      <p>Apple</p>
+                      <!-- rating -->
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" checked />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                          </div>
+                      
+                      <div class="card-actions">
+                        <button class="btn text-[#F85559]">Details</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- card-2 -->
+            <div>
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="./B8A3-fruit-brust/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#121212] text-2xl font-bold my-6">12.90$ - 18.85$</h2>
+                      <p>Orange</p>
+                      <!-- rating -->
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" checked />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                          </div>
+                      
+                      <div class="card-actions">
+                        <button class="btn text-[#F85559]">Details</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- card-3 -->
+            <div>
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="./B8A3-fruit-brust/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#121212] text-2xl font-bold my-6">12.90$ - 18.85$</h2>
+                      <p>Red Dragon</p>
+                      <!-- rating -->
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" checked />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                          </div>
+                      
+                      <div class="card-actions">
+                        <button class="btn text-[#F85559]">Details</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- card-3 -->
+            <div>
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="./B8A3-fruit-brust/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#121212] text-2xl font-bold my-6">12.90$ - 18.85$</h2>
+                      <p>Banana</p>
+                      <!-- rating -->
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" checked />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-pink-400" />
+                          </div>
+                      
+                      <div class="card-actions">
+                        <button class="btn text-[#F85559]">Details</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+         </div>
+         <!-- deal button -->
+         <div class="text-center mt-12">
+            <button class="btn bg-pink-400 text-white">Shop All</button>
+         </div>
+       </section>
+
+       <!-- team-section -->
+       <section class="my-14">
+        <div class=" hero min-h-screen" style="background-image: url(./B8A3-fruit-brust/images/team.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <!-- member container -->
+            <div class="px-72 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <!-- member-1 -->
+                <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./B8A3-fruit-brust/images/member1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center text-white">
+                      <h2 class="card-title">Awlad Hossain</h2>
+                      <p>Fruits Expert</p>
+                      <div class="flex gap-5 text-pink-400">
+                         <a href=""><i class="fa-brands fa-facebook"></i></a>
+                         <a href=""><i class="fa-brands fa-twitter"></i></a>
+                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- member-2 -->
+                <div class="card">
+                    <figure class="px-10 pt-10">
+                      <img src="./B8A3-fruit-brust/images/member2.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center text-white">
+                      <h2 class="card-title">Safia Chowdhury</h2>
+                      <p>Fruits Expert</p>
+                      <div class="flex gap-5 text-pink-400">
+                         <a href=""><i class="fa-brands fa-facebook"></i></a>
+                         <a href=""><i class="fa-brands fa-twitter"></i></a>
+                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- member-3 -->
+                <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./B8A3-fruit-brust/images/member3.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center text-white">
+                      <h2 class="card-title">Rokib Hossain</h2>
+                      <p>Fruits Expert</p>
+                      <div class="flex gap-5 text-pink-400">
+                         <a href=""><i class="fa-brands fa-facebook"></i></a>
+                         <a href=""><i class="fa-brands fa-twitter"></i></a>
+                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- member-4 -->
+                <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./B8A3-fruit-brust/images/member4.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center text-white">
+                      <h2 class="card-title">Chaity</h2>
+                      <p>Fruits Expert</p>
+                      <div class="flex gap-5 text-pink-400">
+                         <a href=""><i class="fa-brands fa-facebook"></i></a>
+                         <a href=""><i class="fa-brands fa-twitter"></i></a>
+                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+       </section>
           
     </main>
     
